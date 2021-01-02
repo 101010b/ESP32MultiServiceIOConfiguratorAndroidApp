@@ -1,0 +1,16 @@
+<resources>
+    <declare-styleable name="ColorEntry">
+        <attr name="titleText" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="frameColor" format="color" />
+        <attr name="frameWidth" format="dimension" />
+        <attr name="displayDimension" format="dimension" />
+        <attr name="expandHeight" format="dimension" />
+        <attr name="selectColor" format="color" />
+        <attr name="displayStyle" format="enum" >
+            <enum name="rectangle" value="0"/>
+            <enum name="roundrectangle" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
